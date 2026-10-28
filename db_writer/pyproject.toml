@@ -1,0 +1,11 @@
+[project]
+name = "db-writer"
+version = "0.1.0"
+description = "DB"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "kafka-python>=3.0.11",
+    "loguru>=0.7.3",
+    "psycopg2-binary>=2.9.13",
+]

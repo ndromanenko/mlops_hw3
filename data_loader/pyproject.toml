@@ -1,0 +1,10 @@
+[project]
+name = "data-loader"
+version = "0.1.0"
+description = "Initial load of labeled transactions"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "loguru>=0.7.3",
+    "psycopg2-binary>=2.9.13",
+]

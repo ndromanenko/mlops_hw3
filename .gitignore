@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+catboost_info
+
+# Secrets
+.env
+
+# Log
+fraude_detector/logs
+db_writer/logs
+interface/logs
+
+# Artifacts (models, DQ reports)
+artifacts/
